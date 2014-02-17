@@ -31,10 +31,10 @@
 			</div>
 			<div class="large-10 columns">
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<h2> <a href="<?php the_permalink(); ?>">
+					<h2 class="entry-title"> <a href="<?php the_permalink(); ?>">
 						<?php the_title(); ?>
 						</a> </h2>
-					<p>
+					<p class="published">
 						<?php the_time('Y.m.d'); ?>
 					</p>
 				</div>
